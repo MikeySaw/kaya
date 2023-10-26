@@ -1,10 +1,10 @@
 import pytest
-from kaya_function import kaya_eq
+from kayaid.kaya_function import kaya_eq
 
 def test_valid_input():
     # Test with valid input values
     result = kaya_eq(82.4, 44, 5, 0.05)
-    assert result == 722.8
+    assert result == 906.4
 
 def test_negative_input():
     # Test with negative population size
