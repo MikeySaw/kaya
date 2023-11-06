@@ -1,5 +1,5 @@
 import pytest
-from kayaid.kaya_function import kaya_eq
+from kaya_function import kaya_eq
 
 def test_valid_input():
     # Test with valid input values
@@ -22,3 +22,4 @@ def test_negative_input():
     # Test with negative carbon intensity
     with pytest.raises(ValueError):
         kaya_eq(82.4, 44, 5, -0.05)
+
