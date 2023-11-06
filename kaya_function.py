@@ -1,6 +1,7 @@
 def kaya_eq(pop, gdp, enInt, carbInt, output_type="CO2"):
     """
     Calculate C02 emissions with the kaya identity.
+    Here is a link explaining the function https://en.wikipedia.org/wiki/Kaya_identity
 
     Args:
         pop (float): Population size (in millions).
